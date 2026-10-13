@@ -90,6 +90,19 @@ public class MergeHandler : MonoBehaviour
     private void SetSprite(Sprite newSprite)
     {
         GetComponentInChildren<SpriteRenderer>().sprite = newSprite;
+
+        if (newSprite == LevelOneSprite)
+        {
+            transform.localScale = Vector3.one * 0.5f;
+        }
+        if (newSprite == LevelTwoSprite)
+        {
+            transform.localScale = Vector3.one * 1f;
+        }
+        if (newSprite == LevelThreeSprite)
+        {
+            transform.localScale = Vector3.one * 1.5f;
+        }
     }
 
     // Returns the next sprite up from the one this logo is showing,

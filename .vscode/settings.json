@@ -6,5 +6,6 @@
     "*": false
   },
   "github.copilot.editor.enableAutoCompletions": false,
-  "editor.inlineSuggest.enabled": false
+  "editor.inlineSuggest.enabled": false,
+  "dotnet.defaultSolution": "a1-suika-game.slnx"
 }

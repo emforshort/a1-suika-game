@@ -35,8 +35,6 @@ public class LogoSpawner : MonoBehaviour
         // The game object is stored in the `logoCopy` variable, and the mouse  //
         // X and Y are stored in `mouseX` and `mouseY`.                         //
         //////////////////////////////////////////////////////////////////////////
-
-        
-
+        logoCopy.transform.position = new Vector3(mouseX, mouseY, 0);
     }
 }
